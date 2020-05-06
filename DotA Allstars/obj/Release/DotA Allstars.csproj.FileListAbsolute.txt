@@ -32,3 +32,23 @@ E:\MobaZ-v2-master\DotA Allstars\Release\Bunifu_UI_v1.52.dll
 E:\MobaZ-v2-master\DotA Allstars\Release\IrcClient.dll
 E:\MobaZ-v2-master\DotA Allstars\Release\Newtonsoft.Json.dll
 E:\MobaZ-v2-master\DotA Allstars\obj\Release\DotA Allstars.csprojAssemblyReference.cache
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\Release\DotA Allstars.exe.config
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\Release\DotA Allstars.exe
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\Release\DotA Allstars.pdb
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\Release\AutoUpdater.NET.dll
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\Release\Bunifu.Core.dll
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\Release\Bunifu.UI.WinForms.BunifuPictureBox.dll
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\Release\Bunifu.UI.WinForms.BunifuTextbox.dll
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\Release\Bunifu_UI_v1.52.dll
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\Release\IrcClient.dll
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\Release\Newtonsoft.Json.dll
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\obj\Release\DotA_Allstars.login.resources
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\obj\Release\DotA_Allstars.main.resources
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\obj\Release\DotA_Allstars.mainview.notice.resources
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\obj\Release\DotA_Allstars.mainview.signup.resources
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\obj\Release\DotA_Allstars.Properties.Resources.resources
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\obj\Release\DotA Allstars.csproj.GenerateResource.cache
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\obj\Release\DotA Allstars.csproj.CoreCompileInputs.cache
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\obj\Release\DotA Allstars.csproj.CopyComplete
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\obj\Release\DotA Allstars.exe
+E:\MobaZ-Client Github\123123\123213\DotA Allstars\obj\Release\DotA Allstars.pdb

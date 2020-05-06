@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <settings>
   <remem value="1" />
-  <us value="style8xmirana" />
+  <us value="huydeptrai" />
   <pw value="12345qwert" />
-  <war3 value="" />
-  <taget value="0" />
-  <notice value="0" />
+  <war3 value="E:\warcraft-3\war3.exe" />
+  <taget value="1" />
+  <notice value="1" />
 </settings>

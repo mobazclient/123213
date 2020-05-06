@@ -79,28 +79,35 @@
             this.sttSV = new System.Windows.Forms.Label();
             this.sttDl = new System.Windows.Forms.Label();
             this.mainP = new System.Windows.Forms.Panel();
+            this.panelhuongdan = new System.Windows.Forms.Panel();
+            this.thoathuongdan = new Bunifu.UI.WinForms.BunifuPictureBox();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.panel9 = new System.Windows.Forms.Panel();
+            this.panel10 = new System.Windows.Forms.Panel();
+            this.huongdan3linklabel = new System.Windows.Forms.LinkLabel();
+            this.huongdan9linklabel = new System.Windows.Forms.LinkLabel();
+            this.huongdan4linklabel = new System.Windows.Forms.LinkLabel();
+            this.huongdan8linklabel = new System.Windows.Forms.LinkLabel();
+            this.huongdan2linklabel = new System.Windows.Forms.LinkLabel();
+            this.huongdan7linklabel = new System.Windows.Forms.LinkLabel();
+            this.huongdan1linklabel = new System.Windows.Forms.LinkLabel();
+            this.huongdanlabel = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.huongdan6linklabel = new System.Windows.Forms.LinkLabel();
+            this.huongdan5linklabel = new System.Windows.Forms.LinkLabel();
             this.addadminbtn = new System.Windows.Forms.Button();
             this.btndoimau = new System.Windows.Forms.Button();
             this.roomP = new System.Windows.Forms.Panel();
+            this.xemhuongdanbutton = new System.Windows.Forms.Button();
             this.modegametxtbox = new System.Windows.Forms.TextBox();
             this.modegamelabel = new System.Windows.Forms.Label();
             this.hotrotructuyen = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.logomessage = new System.Windows.Forms.PictureBox();
             this.logocall = new System.Windows.Forms.PictureBox();
-            this.battlenetkovaodclabel = new System.Windows.Forms.LinkLabel();
-            this.battlesaipasslabel = new System.Windows.Forms.LinkLabel();
-            this.gotiengvietlabel = new System.Windows.Forms.LinkLabel();
             this.obscheckbox = new System.Windows.Forms.CheckBox();
-            this.huongdan6linklabel = new System.Windows.Forms.LinkLabel();
             this.obslabel = new System.Windows.Forms.Label();
-            this.huongdan5linklabel = new System.Windows.Forms.LinkLabel();
-            this.huongdanlabel = new Bunifu.Framework.UI.BunifuCustomLabel();
-            this.huongdan1linklabel = new System.Windows.Forms.LinkLabel();
             this.mapList = new System.Windows.Forms.ComboBox();
-            this.huongdan2linklabel = new System.Windows.Forms.LinkLabel();
-            this.huongdan3linklabel = new System.Windows.Forms.LinkLabel();
             this.label5 = new System.Windows.Forms.Label();
-            this.huongdan4linklabel = new System.Windows.Forms.LinkLabel();
             this.label1 = new System.Windows.Forms.Label();
             this.btnClr = new System.Windows.Forms.Button();
             this.btnCCHost = new System.Windows.Forms.Button();
@@ -121,6 +128,8 @@
             this.panel4.SuspendLayout();
             this.settingP.SuspendLayout();
             this.mainP.SuspendLayout();
+            this.panelhuongdan.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.thoathuongdan)).BeginInit();
             this.roomP.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logomessage)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.logocall)).BeginInit();
@@ -188,7 +197,7 @@
             this.lstUsers.ItemHeight = 20;
             this.lstUsers.Location = new System.Drawing.Point(648, 206);
             this.lstUsers.Name = "lstUsers";
-            this.lstUsers.Size = new System.Drawing.Size(294, 180);
+            this.lstUsers.Size = new System.Drawing.Size(294, 160);
             this.lstUsers.Sorted = true;
             this.lstUsers.TabIndex = 8;
             this.lstUsers.Visible = false;
@@ -722,7 +731,7 @@
             this.sttDl.BackColor = System.Drawing.Color.Black;
             this.sttDl.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.sttDl.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.sttDl.Location = new System.Drawing.Point(32, 194);
+            this.sttDl.Location = new System.Drawing.Point(35, 190);
             this.sttDl.Name = "sttDl";
             this.sttDl.Size = new System.Drawing.Size(170, 17);
             this.sttDl.TabIndex = 19;
@@ -730,6 +739,7 @@
             // mainP
             // 
             this.mainP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.mainP.Controls.Add(this.panelhuongdan);
             this.mainP.Controls.Add(this.addadminbtn);
             this.mainP.Controls.Add(this.btndoimau);
             this.mainP.Controls.Add(this.btnSetting);
@@ -755,6 +765,252 @@
             this.mainP.Size = new System.Drawing.Size(960, 540);
             this.mainP.TabIndex = 4;
             this.mainP.Paint += new System.Windows.Forms.PaintEventHandler(this.mainP_Paint);
+            // 
+            // panelhuongdan
+            // 
+            this.panelhuongdan.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.panelhuongdan.Controls.Add(this.thoathuongdan);
+            this.panelhuongdan.Controls.Add(this.panel3);
+            this.panelhuongdan.Controls.Add(this.panel5);
+            this.panelhuongdan.Controls.Add(this.panel9);
+            this.panelhuongdan.Controls.Add(this.panel10);
+            this.panelhuongdan.Controls.Add(this.huongdan3linklabel);
+            this.panelhuongdan.Controls.Add(this.huongdan9linklabel);
+            this.panelhuongdan.Controls.Add(this.huongdan4linklabel);
+            this.panelhuongdan.Controls.Add(this.huongdan8linklabel);
+            this.panelhuongdan.Controls.Add(this.huongdan2linklabel);
+            this.panelhuongdan.Controls.Add(this.huongdan7linklabel);
+            this.panelhuongdan.Controls.Add(this.huongdan1linklabel);
+            this.panelhuongdan.Controls.Add(this.huongdanlabel);
+            this.panelhuongdan.Controls.Add(this.huongdan6linklabel);
+            this.panelhuongdan.Controls.Add(this.huongdan5linklabel);
+            this.panelhuongdan.Enabled = false;
+            this.panelhuongdan.Location = new System.Drawing.Point(275, 174);
+            this.panelhuongdan.Name = "panelhuongdan";
+            this.panelhuongdan.Size = new System.Drawing.Size(335, 243);
+            this.panelhuongdan.TabIndex = 35;
+            this.panelhuongdan.Visible = false;
+            // 
+            // thoathuongdan
+            // 
+            this.thoathuongdan.AllowFocused = false;
+            this.thoathuongdan.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.thoathuongdan.BackColor = System.Drawing.Color.Transparent;
+            this.thoathuongdan.BorderRadius = 100;
+            this.thoathuongdan.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.thoathuongdan.Image = global::DotA_Allstars.Properties.Resources.close_window_96px;
+            this.thoathuongdan.IsCircle = false;
+            this.thoathuongdan.Location = new System.Drawing.Point(301, 4);
+            this.thoathuongdan.Name = "thoathuongdan";
+            this.thoathuongdan.Size = new System.Drawing.Size(31, 31);
+            this.thoathuongdan.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.thoathuongdan.TabIndex = 28;
+            this.thoathuongdan.TabStop = false;
+            this.thoathuongdan.Type = Bunifu.UI.WinForms.BunifuPictureBox.Types.Custom;
+            this.thoathuongdan.Visible = false;
+            this.thoathuongdan.Click += new System.EventHandler(this.bunifuPictureBox1_Click);
+            // 
+            // panel3
+            // 
+            this.panel3.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel3.BackgroundImage")));
+            this.panel3.Location = new System.Drawing.Point(6, 226);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(322, 16);
+            this.panel3.TabIndex = 22;
+            // 
+            // panel5
+            // 
+            this.panel5.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel5.BackgroundImage")));
+            this.panel5.Location = new System.Drawing.Point(324, 1);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(10, 249);
+            this.panel5.TabIndex = 20;
+            // 
+            // panel9
+            // 
+            this.panel9.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel9.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel9.BackgroundImage")));
+            this.panel9.Location = new System.Drawing.Point(8, -1);
+            this.panel9.Name = "panel9";
+            this.panel9.Size = new System.Drawing.Size(322, 16);
+            this.panel9.TabIndex = 17;
+            // 
+            // panel10
+            // 
+            this.panel10.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel10.BackColor = System.Drawing.Color.Transparent;
+            this.panel10.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("panel10.BackgroundImage")));
+            this.panel10.Location = new System.Drawing.Point(0, 1);
+            this.panel10.Name = "panel10";
+            this.panel10.Size = new System.Drawing.Size(10, 249);
+            this.panel10.TabIndex = 21;
+            // 
+            // huongdan3linklabel
+            // 
+            this.huongdan3linklabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.huongdan3linklabel.AutoSize = true;
+            this.huongdan3linklabel.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.huongdan3linklabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.huongdan3linklabel.LinkColor = System.Drawing.Color.Gold;
+            this.huongdan3linklabel.Location = new System.Drawing.Point(35, 90);
+            this.huongdan3linklabel.Name = "huongdan3linklabel";
+            this.huongdan3linklabel.Size = new System.Drawing.Size(266, 17);
+            this.huongdan3linklabel.TabIndex = 14;
+            this.huongdan3linklabel.TabStop = true;
+            this.huongdan3linklabel.Text = "Hướng dẫn tự tạo host trên PC cá nhân";
+            this.huongdan3linklabel.Visible = false;
+            this.huongdan3linklabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.huongdan3_LinkClicked);
+            // 
+            // huongdan9linklabel
+            // 
+            this.huongdan9linklabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.huongdan9linklabel.AutoSize = true;
+            this.huongdan9linklabel.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.huongdan9linklabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.huongdan9linklabel.LinkColor = System.Drawing.Color.Gold;
+            this.huongdan9linklabel.Location = new System.Drawing.Point(75, 194);
+            this.huongdan9linklabel.Name = "huongdan9linklabel";
+            this.huongdan9linklabel.Size = new System.Drawing.Size(186, 17);
+            this.huongdan9linklabel.TabIndex = 28;
+            this.huongdan9linklabel.TabStop = true;
+            this.huongdan9linklabel.Text = "Không vào được Battle.net ";
+            this.huongdan9linklabel.Visible = false;
+            this.huongdan9linklabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.battlenetkovaodclabel_LinkClicked);
+            // 
+            // huongdan4linklabel
+            // 
+            this.huongdan4linklabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.huongdan4linklabel.AutoSize = true;
+            this.huongdan4linklabel.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.huongdan4linklabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.huongdan4linklabel.LinkColor = System.Drawing.Color.Gold;
+            this.huongdan4linklabel.Location = new System.Drawing.Point(50, 142);
+            this.huongdan4linklabel.Name = "huongdan4linklabel";
+            this.huongdan4linklabel.Size = new System.Drawing.Size(237, 17);
+            this.huongdan4linklabel.TabIndex = 15;
+            this.huongdan4linklabel.TabStop = true;
+            this.huongdan4linklabel.Text = "Các lệnh điều khiển bot trong game";
+            this.huongdan4linklabel.Visible = false;
+            this.huongdan4linklabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.huongdan4_LinkClicked);
+            // 
+            // huongdan8linklabel
+            // 
+            this.huongdan8linklabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.huongdan8linklabel.AutoSize = true;
+            this.huongdan8linklabel.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.huongdan8linklabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.huongdan8linklabel.LinkColor = System.Drawing.Color.Gold;
+            this.huongdan8linklabel.Location = new System.Drawing.Point(58, 177);
+            this.huongdan8linklabel.Name = "huongdan8linklabel";
+            this.huongdan8linklabel.Size = new System.Drawing.Size(223, 17);
+            this.huongdan8linklabel.TabIndex = 27;
+            this.huongdan8linklabel.TabStop = true;
+            this.huongdan8linklabel.Text = "Login Battle.net báo sai mật khẩu";
+            this.huongdan8linklabel.Visible = false;
+            this.huongdan8linklabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.battlesaipasslabel_LinkClicked);
+            // 
+            // huongdan2linklabel
+            // 
+            this.huongdan2linklabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.huongdan2linklabel.AutoSize = true;
+            this.huongdan2linklabel.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.huongdan2linklabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.huongdan2linklabel.LinkColor = System.Drawing.Color.Gold;
+            this.huongdan2linklabel.Location = new System.Drawing.Point(44, 70);
+            this.huongdan2linklabel.Name = "huongdan2linklabel";
+            this.huongdan2linklabel.Size = new System.Drawing.Size(257, 17);
+            this.huongdan2linklabel.TabIndex = 13;
+            this.huongdan2linklabel.TabStop = true;
+            this.huongdan2linklabel.Text = "Hướng dẫn tạo host bằng bot (server) ";
+            this.huongdan2linklabel.Visible = false;
+            this.huongdan2linklabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.huongdan2_LinkClicked);
+            // 
+            // huongdan7linklabel
+            // 
+            this.huongdan7linklabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.huongdan7linklabel.AutoSize = true;
+            this.huongdan7linklabel.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.huongdan7linklabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.huongdan7linklabel.LinkColor = System.Drawing.Color.Gold;
+            this.huongdan7linklabel.Location = new System.Drawing.Point(64, 162);
+            this.huongdan7linklabel.Name = "huongdan7linklabel";
+            this.huongdan7linklabel.Size = new System.Drawing.Size(217, 17);
+            this.huongdan7linklabel.TabIndex = 26;
+            this.huongdan7linklabel.TabStop = true;
+            this.huongdan7linklabel.Text = "Gõ tiếng việt trong MobaZ Client ";
+            this.huongdan7linklabel.Visible = false;
+            this.huongdan7linklabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.gotiengvietlabel_LinkClicked);
+            // 
+            // huongdan1linklabel
+            // 
+            this.huongdan1linklabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.huongdan1linklabel.AutoSize = true;
+            this.huongdan1linklabel.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.huongdan1linklabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.huongdan1linklabel.LinkColor = System.Drawing.Color.Gold;
+            this.huongdan1linklabel.Location = new System.Drawing.Point(98, 53);
+            this.huongdan1linklabel.Name = "huongdan1linklabel";
+            this.huongdan1linklabel.Size = new System.Drawing.Size(150, 17);
+            this.huongdan1linklabel.TabIndex = 12;
+            this.huongdan1linklabel.TabStop = true;
+            this.huongdan1linklabel.Text = "Hướng dẫn vào game";
+            this.huongdan1linklabel.Visible = false;
+            this.huongdan1linklabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.huongdan1_LinkClicked);
+            // 
+            // huongdanlabel
+            // 
+            this.huongdanlabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.huongdanlabel.AutoSize = true;
+            this.huongdanlabel.Font = new System.Drawing.Font("Verdana", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.huongdanlabel.ForeColor = System.Drawing.Color.Gold;
+            this.huongdanlabel.Location = new System.Drawing.Point(107, 30);
+            this.huongdanlabel.Name = "huongdanlabel";
+            this.huongdanlabel.Size = new System.Drawing.Size(127, 23);
+            this.huongdanlabel.TabIndex = 11;
+            this.huongdanlabel.Text = "Hướng dẫn";
+            this.huongdanlabel.Visible = false;
+            // 
+            // huongdan6linklabel
+            // 
+            this.huongdan6linklabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.huongdan6linklabel.AutoSize = true;
+            this.huongdan6linklabel.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.huongdan6linklabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.huongdan6linklabel.LinkColor = System.Drawing.Color.Gold;
+            this.huongdan6linklabel.Location = new System.Drawing.Point(64, 124);
+            this.huongdan6linklabel.Name = "huongdan6linklabel";
+            this.huongdan6linklabel.Size = new System.Drawing.Size(204, 17);
+            this.huongdan6linklabel.TabIndex = 25;
+            this.huongdan6linklabel.TabStop = true;
+            this.huongdan6linklabel.Text = "Hướng dẫn dùng Garena Total";
+            this.huongdan6linklabel.Visible = false;
+            this.huongdan6linklabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.huongdan6linklabel_LinkClicked);
+            // 
+            // huongdan5linklabel
+            // 
+            this.huongdan5linklabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.huongdan5linklabel.AutoSize = true;
+            this.huongdan5linklabel.Font = new System.Drawing.Font("Arial", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.huongdan5linklabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
+            this.huongdan5linklabel.LinkColor = System.Drawing.Color.Gold;
+            this.huongdan5linklabel.Location = new System.Drawing.Point(75, 107);
+            this.huongdan5linklabel.Name = "huongdan5linklabel";
+            this.huongdan5linklabel.Size = new System.Drawing.Size(182, 17);
+            this.huongdan5linklabel.TabIndex = 24;
+            this.huongdan5linklabel.TabStop = true;
+            this.huongdan5linklabel.Text = "Hướng dẫn cài Warcraft III ";
+            this.huongdan5linklabel.Visible = false;
+            this.huongdan5linklabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.huongdan5linklabel_LinkClicked);
             // 
             // addadminbtn
             // 
@@ -786,25 +1042,16 @@
             | System.Windows.Forms.AnchorStyles.Left)));
             this.roomP.BackColor = System.Drawing.Color.Transparent;
             this.roomP.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.roomP.Controls.Add(this.xemhuongdanbutton);
             this.roomP.Controls.Add(this.modegametxtbox);
             this.roomP.Controls.Add(this.modegamelabel);
             this.roomP.Controls.Add(this.hotrotructuyen);
             this.roomP.Controls.Add(this.logomessage);
             this.roomP.Controls.Add(this.logocall);
-            this.roomP.Controls.Add(this.battlenetkovaodclabel);
-            this.roomP.Controls.Add(this.battlesaipasslabel);
-            this.roomP.Controls.Add(this.gotiengvietlabel);
             this.roomP.Controls.Add(this.obscheckbox);
-            this.roomP.Controls.Add(this.huongdan6linklabel);
             this.roomP.Controls.Add(this.obslabel);
-            this.roomP.Controls.Add(this.huongdan5linklabel);
-            this.roomP.Controls.Add(this.huongdanlabel);
-            this.roomP.Controls.Add(this.huongdan1linklabel);
             this.roomP.Controls.Add(this.mapList);
-            this.roomP.Controls.Add(this.huongdan2linklabel);
-            this.roomP.Controls.Add(this.huongdan3linklabel);
             this.roomP.Controls.Add(this.label5);
-            this.roomP.Controls.Add(this.huongdan4linklabel);
             this.roomP.Controls.Add(this.label1);
             this.roomP.Controls.Add(this.btnClr);
             this.roomP.Controls.Add(this.btnCCHost);
@@ -815,6 +1062,18 @@
             this.roomP.Size = new System.Drawing.Size(240, 322);
             this.roomP.TabIndex = 1;
             this.roomP.Visible = false;
+            // 
+            // xemhuongdanbutton
+            // 
+            this.xemhuongdanbutton.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
+            this.xemhuongdanbutton.Location = new System.Drawing.Point(13, 32);
+            this.xemhuongdanbutton.Name = "xemhuongdanbutton";
+            this.xemhuongdanbutton.Size = new System.Drawing.Size(212, 35);
+            this.xemhuongdanbutton.TabIndex = 34;
+            this.xemhuongdanbutton.Text = "Xem hướng dẫn";
+            this.xemhuongdanbutton.UseVisualStyleBackColor = true;
+            this.xemhuongdanbutton.Visible = false;
+            this.xemhuongdanbutton.Click += new System.EventHandler(this.xemhuongdanbutton_Click);
             // 
             // modegametxtbox
             // 
@@ -877,54 +1136,6 @@
             this.logocall.Visible = false;
             this.logocall.Click += new System.EventHandler(this.logocall_Click);
             // 
-            // battlenetkovaodclabel
-            // 
-            this.battlenetkovaodclabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.battlenetkovaodclabel.AutoSize = true;
-            this.battlenetkovaodclabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.battlenetkovaodclabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.battlenetkovaodclabel.LinkColor = System.Drawing.Color.White;
-            this.battlenetkovaodclabel.Location = new System.Drawing.Point(3, -91);
-            this.battlenetkovaodclabel.Name = "battlenetkovaodclabel";
-            this.battlenetkovaodclabel.Size = new System.Drawing.Size(166, 16);
-            this.battlenetkovaodclabel.TabIndex = 28;
-            this.battlenetkovaodclabel.TabStop = true;
-            this.battlenetkovaodclabel.Text = "Không vào được Battle.net ";
-            this.battlenetkovaodclabel.Visible = false;
-            this.battlenetkovaodclabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.battlenetkovaodclabel_LinkClicked);
-            // 
-            // battlesaipasslabel
-            // 
-            this.battlesaipasslabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.battlesaipasslabel.AutoSize = true;
-            this.battlesaipasslabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.battlesaipasslabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.battlesaipasslabel.LinkColor = System.Drawing.Color.White;
-            this.battlesaipasslabel.Location = new System.Drawing.Point(3, -108);
-            this.battlesaipasslabel.Name = "battlesaipasslabel";
-            this.battlesaipasslabel.Size = new System.Drawing.Size(204, 16);
-            this.battlesaipasslabel.TabIndex = 27;
-            this.battlesaipasslabel.TabStop = true;
-            this.battlesaipasslabel.Text = "Login Battle.net báo sai mật khẩu";
-            this.battlesaipasslabel.Visible = false;
-            this.battlesaipasslabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.battlesaipasslabel_LinkClicked);
-            // 
-            // gotiengvietlabel
-            // 
-            this.gotiengvietlabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.gotiengvietlabel.AutoSize = true;
-            this.gotiengvietlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gotiengvietlabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.gotiengvietlabel.LinkColor = System.Drawing.Color.White;
-            this.gotiengvietlabel.Location = new System.Drawing.Point(3, -124);
-            this.gotiengvietlabel.Name = "gotiengvietlabel";
-            this.gotiengvietlabel.Size = new System.Drawing.Size(200, 16);
-            this.gotiengvietlabel.TabIndex = 26;
-            this.gotiengvietlabel.TabStop = true;
-            this.gotiengvietlabel.Text = "Gõ tiếng việt trong MobaZ Client ";
-            this.gotiengvietlabel.Visible = false;
-            this.gotiengvietlabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.gotiengvietlabel_LinkClicked);
-            // 
             // obscheckbox
             // 
             this.obscheckbox.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
@@ -939,22 +1150,6 @@
             this.obscheckbox.UseVisualStyleBackColor = false;
             this.obscheckbox.Visible = false;
             // 
-            // huongdan6linklabel
-            // 
-            this.huongdan6linklabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.huongdan6linklabel.AutoSize = true;
-            this.huongdan6linklabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.huongdan6linklabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.huongdan6linklabel.LinkColor = System.Drawing.Color.White;
-            this.huongdan6linklabel.Location = new System.Drawing.Point(3, -156);
-            this.huongdan6linklabel.Name = "huongdan6linklabel";
-            this.huongdan6linklabel.Size = new System.Drawing.Size(189, 16);
-            this.huongdan6linklabel.TabIndex = 25;
-            this.huongdan6linklabel.TabStop = true;
-            this.huongdan6linklabel.Text = "Hướng dẫn dùng Garena Total";
-            this.huongdan6linklabel.Visible = false;
-            this.huongdan6linklabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.huongdan6linklabel_LinkClicked);
-            // 
             // obslabel
             // 
             this.obslabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
@@ -966,51 +1161,6 @@
             this.obslabel.TabIndex = 12;
             this.obslabel.Text = "Chế độ Observers";
             this.obslabel.Visible = false;
-            // 
-            // huongdan5linklabel
-            // 
-            this.huongdan5linklabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.huongdan5linklabel.AutoSize = true;
-            this.huongdan5linklabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.huongdan5linklabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.huongdan5linklabel.LinkColor = System.Drawing.Color.White;
-            this.huongdan5linklabel.Location = new System.Drawing.Point(3, -172);
-            this.huongdan5linklabel.Name = "huongdan5linklabel";
-            this.huongdan5linklabel.Size = new System.Drawing.Size(163, 16);
-            this.huongdan5linklabel.TabIndex = 24;
-            this.huongdan5linklabel.TabStop = true;
-            this.huongdan5linklabel.Text = "Hướng dẫn cài Warcraft III ";
-            this.huongdan5linklabel.Visible = false;
-            this.huongdan5linklabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.huongdan5linklabel_LinkClicked);
-            // 
-            // huongdanlabel
-            // 
-            this.huongdanlabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.huongdanlabel.AutoSize = true;
-            this.huongdanlabel.Font = new System.Drawing.Font("Verdana", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.huongdanlabel.ForeColor = System.Drawing.Color.Cornsilk;
-            this.huongdanlabel.Location = new System.Drawing.Point(67, -240);
-            this.huongdanlabel.Name = "huongdanlabel";
-            this.huongdanlabel.Size = new System.Drawing.Size(104, 18);
-            this.huongdanlabel.TabIndex = 11;
-            this.huongdanlabel.Text = "Hướng dẫn";
-            this.huongdanlabel.Visible = false;
-            // 
-            // huongdan1linklabel
-            // 
-            this.huongdan1linklabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.huongdan1linklabel.AutoSize = true;
-            this.huongdan1linklabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.huongdan1linklabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.huongdan1linklabel.LinkColor = System.Drawing.Color.White;
-            this.huongdan1linklabel.Location = new System.Drawing.Point(3, -220);
-            this.huongdan1linklabel.Name = "huongdan1linklabel";
-            this.huongdan1linklabel.Size = new System.Drawing.Size(138, 16);
-            this.huongdan1linklabel.TabIndex = 12;
-            this.huongdan1linklabel.TabStop = true;
-            this.huongdan1linklabel.Text = "Hướng dẫn vào game";
-            this.huongdan1linklabel.Visible = false;
-            this.huongdan1linklabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.huongdan1_LinkClicked);
             // 
             // mapList
             // 
@@ -1063,41 +1213,9 @@
             "Green-Circle-TD v9.9"});
             this.mapList.Location = new System.Drawing.Point(17, 117);
             this.mapList.Name = "mapList";
-            this.mapList.Size = new System.Drawing.Size(215, 21);
+            this.mapList.Size = new System.Drawing.Size(208, 21);
             this.mapList.TabIndex = 8;
             this.mapList.Visible = false;
-            // 
-            // huongdan2linklabel
-            // 
-            this.huongdan2linklabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.huongdan2linklabel.AutoSize = true;
-            this.huongdan2linklabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.huongdan2linklabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.huongdan2linklabel.LinkColor = System.Drawing.Color.White;
-            this.huongdan2linklabel.Location = new System.Drawing.Point(3, -204);
-            this.huongdan2linklabel.Name = "huongdan2linklabel";
-            this.huongdan2linklabel.Size = new System.Drawing.Size(232, 16);
-            this.huongdan2linklabel.TabIndex = 13;
-            this.huongdan2linklabel.TabStop = true;
-            this.huongdan2linklabel.Text = "Hướng dẫn tạo host bằng bot (server) ";
-            this.huongdan2linklabel.Visible = false;
-            this.huongdan2linklabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.huongdan2_LinkClicked);
-            // 
-            // huongdan3linklabel
-            // 
-            this.huongdan3linklabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.huongdan3linklabel.AutoSize = true;
-            this.huongdan3linklabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.huongdan3linklabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.huongdan3linklabel.LinkColor = System.Drawing.Color.White;
-            this.huongdan3linklabel.Location = new System.Drawing.Point(3, -188);
-            this.huongdan3linklabel.Name = "huongdan3linklabel";
-            this.huongdan3linklabel.Size = new System.Drawing.Size(233, 16);
-            this.huongdan3linklabel.TabIndex = 14;
-            this.huongdan3linklabel.TabStop = true;
-            this.huongdan3linklabel.Text = "Hướng dẫn tự tạo host trên PC cá nhân";
-            this.huongdan3linklabel.Visible = false;
-            this.huongdan3linklabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.huongdan3_LinkClicked);
             // 
             // label5
             // 
@@ -1110,22 +1228,6 @@
             this.label5.TabIndex = 6;
             this.label5.Text = "Chọn map";
             this.label5.Visible = false;
-            // 
-            // huongdan4linklabel
-            // 
-            this.huongdan4linklabel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
-            this.huongdan4linklabel.AutoSize = true;
-            this.huongdan4linklabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.huongdan4linklabel.LinkBehavior = System.Windows.Forms.LinkBehavior.NeverUnderline;
-            this.huongdan4linklabel.LinkColor = System.Drawing.Color.White;
-            this.huongdan4linklabel.Location = new System.Drawing.Point(3, -140);
-            this.huongdan4linklabel.Name = "huongdan4linklabel";
-            this.huongdan4linklabel.Size = new System.Drawing.Size(217, 16);
-            this.huongdan4linklabel.TabIndex = 15;
-            this.huongdan4linklabel.TabStop = true;
-            this.huongdan4linklabel.Text = "Các lệnh điều khiển bot trong game";
-            this.huongdan4linklabel.Visible = false;
-            this.huongdan4linklabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.huongdan4_LinkClicked);
             // 
             // label1
             // 
@@ -1314,7 +1416,7 @@
             this.bgrroom.Image = global::DotA_Allstars.Properties.Resources._86386248_222037115625505_8116547698976358400_n;
             this.bgrroom.Location = new System.Drawing.Point(270, 205);
             this.bgrroom.Name = "bgrroom";
-            this.bgrroom.Size = new System.Drawing.Size(678, 319);
+            this.bgrroom.Size = new System.Drawing.Size(675, 319);
             this.bgrroom.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.bgrroom.TabIndex = 0;
             this.bgrroom.TabStop = false;
@@ -1353,6 +1455,9 @@
             this.settingP.PerformLayout();
             this.mainP.ResumeLayout(false);
             this.mainP.PerformLayout();
+            this.panelhuongdan.ResumeLayout(false);
+            this.panelhuongdan.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.thoathuongdan)).EndInit();
             this.roomP.ResumeLayout(false);
             this.roomP.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.logomessage)).EndInit();
@@ -1425,9 +1530,9 @@
         private System.Windows.Forms.Button btnHost;
         private System.Windows.Forms.Button button1;
         private Bunifu.Framework.UI.BunifuCustomLabel danhsachphonglabel;
-        private System.Windows.Forms.LinkLabel battlenetkovaodclabel;
-        private System.Windows.Forms.LinkLabel battlesaipasslabel;
-        private System.Windows.Forms.LinkLabel gotiengvietlabel;
+        private System.Windows.Forms.LinkLabel huongdan9linklabel;
+        private System.Windows.Forms.LinkLabel huongdan8linklabel;
+        private System.Windows.Forms.LinkLabel huongdan7linklabel;
         private System.Windows.Forms.Button btndoimau;
         private System.Windows.Forms.Button addadminbtn;
         private System.Windows.Forms.PictureBox logocall;
@@ -1436,5 +1541,12 @@
         private Bunifu.UI.WinForms.BunifuTextbox.BunifuTextBox searchPing;
         private System.Windows.Forms.TextBox modegametxtbox;
         private System.Windows.Forms.Label modegamelabel;
+        private System.Windows.Forms.Panel panelhuongdan;
+        private System.Windows.Forms.Panel panel3;
+        private System.Windows.Forms.Panel panel5;
+        private System.Windows.Forms.Panel panel9;
+        private System.Windows.Forms.Panel panel10;
+        private System.Windows.Forms.Button xemhuongdanbutton;
+        private Bunifu.UI.WinForms.BunifuPictureBox thoathuongdan;
     }
 }

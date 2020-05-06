@@ -146,7 +146,7 @@ namespace DotA_Allstars
                 {
                     wcp.DownloadProgressChanged += wc_DownloadProgressChangedP;
                     wcp.DownloadFileAsync(
-                    new Uri("http://103.137.184.98/TFTVersion126a/TFTVersion1.26a.new.zip"),
+                    new Uri("http://103.137.184.98/TFTVersion1.26a.new.zip"),
                                 Path.GetDirectoryName(pathwar3.Text) + "\\TFTVersion1.26a.new.zip");
                 }
             }
@@ -172,7 +172,7 @@ namespace DotA_Allstars
 
         private void ClBt_Click(object sender, EventArgs e)
         {
-            Environment.Exit(1);
+            Application.Exit();
         }
 
         private void MmmBt_Click(object sender, EventArgs e)
@@ -314,6 +314,7 @@ namespace DotA_Allstars
             HighlightPhrase(rtbOutput, "MobazTongHop7", Color.Red);
             HighlightPhrase(rtbOutput, "MobazTongHop8", Color.Red);
             HighlightPhrase(rtbOutput, "style8xmirana", Color.Red);
+
             if (rtbOutput.BackColor == Color.Cornsilk)
             {
                 HighlightPhrase(rtbOutput, "Dota.v6.83d", Color.Blue);
@@ -321,6 +322,43 @@ namespace DotA_Allstars
                 HighlightPhrase(rtbOutput, "LoD.v6.87d6", Color.Blue);
                 HighlightPhrase(rtbOutput, "LoD.v6.85n3", Color.Blue);
                 HighlightPhrase(rtbOutput, "LoD.v6.74c", Color.Blue);
+                HighlightPhrase(rtbOutput, "Imba.v2.6", Color.Blue);
+                HighlightPhrase(rtbOutput, "Imba.v4", Color.Blue);
+                HighlightPhrase(rtbOutput, "Legend.v99.9", Color.Blue);
+                HighlightPhrase(rtbOutput, "Legion.4.1", Color.Blue);
+                HighlightPhrase(rtbOutput, "DDay.19.9b", Color.Blue);
+                HighlightPhrase(rtbOutput, "Divine.1.20", Color.Blue);
+                HighlightPhrase(rtbOutput, "TongHop.V49", Color.Blue);
+                HighlightPhrase(rtbOutput, "ThienKiem.8", Color.Blue);
+                HighlightPhrase(rtbOutput, "Warlock.1.02", Color.Blue);
+                HighlightPhrase(rtbOutput, "PoKeMon", Color.Blue);
+                HighlightPhrase(rtbOutput, "Xhero.3.45", Color.Blue);
+                HighlightPhrase(rtbOutput, "Green.21.5", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenHPNY.v6.0", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenHPNY.v5.9", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenHPNY.v4.2", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenHPNY.Final", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenTD.3.1", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenTD.2.1", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenVKL", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenCricle.EP1", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenCricle.6.2", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenCricle.19.0", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenCricle.16.7", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenCricle.12.1", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenCricleMG.16.7", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenCricleMG.11", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenCricleMG.10.9", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenCricleMG.10.6", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenCricleMG.9.6", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenCricleAh.74", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenCricle.10", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenAnimeEx.9", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenCricle.18.5", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenCricleTD.2.3.50", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenCricleTD.6.2.7", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenCricleTD.2f1.8", Color.Blue);
+                HighlightPhrase(rtbOutput, "GreenCricle.9.9", Color.Blue);
                 HighlightPhrase(rtbOutput, "0/10", Color.Blue);
                 HighlightPhrase(rtbOutput, "1/10", Color.Blue);
                 HighlightPhrase(rtbOutput, "2/10", Color.Blue);
@@ -349,10 +387,48 @@ namespace DotA_Allstars
             else
             {
                 HighlightPhrase(rtbOutput, "Dota.v6.83d", Color.Lime);
-                HighlightPhrase(rtbOutput, "Dota.v6.90a8", Color.Lime);
-                HighlightPhrase(rtbOutput, "LoD.v6.87d6", Color.Lime);
+                HighlightPhrase(rtbOutput, "Dota.v6.90a8", Color.Tomato);
+                HighlightPhrase(rtbOutput, "LoD.v6.87d6", Color.Yellow);
                 HighlightPhrase(rtbOutput, "LoD.v6.85n3", Color.Lime);
-                HighlightPhrase(rtbOutput, "LoD.v6.74c", Color.Lime);
+                HighlightPhrase(rtbOutput, "LoD.v6.74c", Color.Tomato);
+                HighlightPhrase(rtbOutput, "Imba.v2.6", Color.Lime);
+                HighlightPhrase(rtbOutput, "Imba.v4", Color.Yellow);
+                HighlightPhrase(rtbOutput, "Legend.v99.9", Color.Lime);
+                HighlightPhrase(rtbOutput, "Legion.4.1", Color.Lime);
+                HighlightPhrase(rtbOutput, "DDay.19.9b", Color.Lime);
+                HighlightPhrase(rtbOutput, "Divine.1.20", Color.Lime);
+                HighlightPhrase(rtbOutput, "TongHop.V49", Color.Lime);
+                HighlightPhrase(rtbOutput, "ThienKiem.8", Color.Lime);
+                HighlightPhrase(rtbOutput, "Warlock.1.02", Color.Lime);
+                HighlightPhrase(rtbOutput, "PoKeMon", Color.Yellow);
+                HighlightPhrase(rtbOutput, "Xhero.3.45", Color.Lime);
+                HighlightPhrase(rtbOutput, "Green.21.5", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenHPNY.v6.0", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenHPNY.v5.9", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenHPNY.v4.2", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenHPNY.Final", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenTD.3.1", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenTD.2.1", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenVKL", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenCricle.EP1", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenCricle.6.2", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenCricle.19.0", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenCricle.16.7", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenCricle.12.1", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenCricleMG.16.7", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenCricleMG.11", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenCricleMG.10.9", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenCricleMG.10.6", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenCricleMG.9.6", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenCricleAh.74", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenCricle.10", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenAnimeEx.9", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenCricle.18.5", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenCricleTD.2.3.50", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenCricleTD.6.2.7", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenCricleTD.2f1.8", Color.Lime);
+                HighlightPhrase(rtbOutput, "GreenCricle.9.9", Color.Lime);
+
                 HighlightPhrase(rtbOutput, "0/10", Color.Lime);
                 HighlightPhrase(rtbOutput, "1/10", Color.Lime);
                 HighlightPhrase(rtbOutput, "2/10", Color.Lime);
@@ -499,8 +575,9 @@ namespace DotA_Allstars
                     {
                         wcp.DownloadProgressChanged += wc_DownloadProgressChangedP;
                         wcp.DownloadFileAsync(
-                        new Uri("http://103.137.184.98/TFTVersion126a/TFTVersion1.26a.new.zip"),
-                                Path.GetDirectoryName(pathwar3.Text) + "\\TFTVersion1.26a.new.zip");                      
+                        new Uri("http://103.137.184.98/TFTVersion1.26a.new.zip"),
+                                Path.GetDirectoryName(pathwar3.Text) + "\\TFTVersion1.26a.new.zip"
+                                );                      
                     }
 
                     /*var gameVer = FileVersionInfo.GetVersionInfo(pathwar3.Text);
@@ -532,7 +609,7 @@ namespace DotA_Allstars
             sttDl.Text = "1.26a new downloading..." + e.ProgressPercentage + "%";
             if (e.ProgressPercentage == 100)
             {
-                sttDl.Text = "Giản nén...";
+                sttDl.Text = "Extract...";
                 doneDownloadP();
             }
         }
@@ -540,7 +617,17 @@ namespace DotA_Allstars
         public async void doneDownloadP()
         {
             await Task.Delay(2000);
-            {               
+            try
+            {
+                using (ZipArchive archive = ZipFile.OpenRead(Path.GetDirectoryName(pathwar3.Text) + "\\TFTVersion1.26a.new.zip"))
+                {
+                    foreach (ZipArchiveEntry entry in archive.Entries)
+                    {
+                        {
+                            entry.ExtractToFile(Path.Combine(Path.GetDirectoryName(pathwar3.Text), entry.FullName), true);
+                        }
+                    }
+                }
                 sttDl.Text = "Done!";
                 await Task.Delay(2000);
                 sttDl.Text = "";
@@ -549,7 +636,10 @@ namespace DotA_Allstars
                 btnStart.Enabled = true;
                 btnSave.Enabled = true;
             }
-
+            catch
+            {
+                MessageBox.Show("Warcraft III đang chạy ngầm. Hãy tắt và thử lại");
+            }
 
         }
         public void settingG()
@@ -610,7 +700,7 @@ namespace DotA_Allstars
             sttDl.Text = "Map downloading..." + e.ProgressPercentage + "%";
             if (e.ProgressPercentage == 100)
             {
-                sttDl.Text = "Giải nén...";
+                sttDl.Text = "Extract...";
                 doneDownload();
             }
         }
@@ -619,10 +709,20 @@ namespace DotA_Allstars
         {
             await Task.Delay(2000);
             try
-            {              
+            {
+                using (ZipArchive archive = ZipFile.OpenRead(Path.GetDirectoryName(pathwar3.Text) + "\\Allmap.zip"))
+                {
+                    foreach (ZipArchiveEntry entry in archive.Entries)
+                    {
+                        {
+                            entry.ExtractToFile(Path.Combine(Path.GetDirectoryName(pathwar3.Text) + "\\Maps\\", entry.FullName), true);
+                        }
+                    }
+                }
                 sttDl.Text = "Done!";
                 await Task.Delay(2000);
                 sttDl.Text = "";
+                mapName.Enabled = true;
             }
             catch
             {
@@ -731,9 +831,9 @@ namespace DotA_Allstars
                 btnSetting.Visible = false;
                 btnStart.Enabled = false;
                 btnStart.Visible = false;
+                listRooms.Enabled = true;
                 DcnRoom();
                 DoDisconnect();
-                listRooms.Enabled = true;
                 rooms.Clear();
                 listRooms.Items.Clear();
                 GetRooms();
@@ -800,9 +900,9 @@ namespace DotA_Allstars
                 danhsachphonglabel.Visible = false;
                 obscheckbox.Visible = true;
                 obslabel.Visible = true;
-                battlenetkovaodclabel.Visible = true;
-                battlesaipasslabel.Visible = true;
-                gotiengvietlabel.Visible = true;
+                huongdan9linklabel.Visible = true;
+                huongdan8linklabel.Visible = true;
+                huongdan7linklabel.Visible = true;
                 roomP.Visible = true;
                 btndoimau.Visible = true;
                 addadminbtn.Visible = true;
@@ -811,6 +911,8 @@ namespace DotA_Allstars
                 logomessage.Visible = true;
                 modegametxtbox.Visible = true;
                 modegamelabel.Visible = true;
+                panelhuongdan.Visible = false;
+                xemhuongdanbutton.Visible = true;
 
             });
         }
@@ -834,9 +936,9 @@ namespace DotA_Allstars
             danhsachphonglabel.Visible = true;
             obslabel.Visible = false;
             obscheckbox.Visible = false;
-            battlenetkovaodclabel.Visible = false;
-            battlesaipasslabel.Visible = false;
-            gotiengvietlabel.Visible = false;
+            huongdan9linklabel.Visible = false;
+            huongdan8linklabel.Visible = false;
+            huongdan7linklabel.Visible = false;
             roomP.Visible = false;
             btndoimau.Visible = false;
             addadminbtn.Visible = false;
@@ -845,6 +947,8 @@ namespace DotA_Allstars
             logomessage.Visible = false;
             modegametxtbox.Visible = false;
             modegamelabel.Visible = false;
+            panelhuongdan.Visible = false;
+            xemhuongdanbutton.Visible = false;
         }
 
         private void btnHost_Click(object sender, EventArgs e)
@@ -1034,7 +1138,7 @@ namespace DotA_Allstars
                     break;
             }
 
-            AddToChatWindow("MobaZBotX: [AURA] Creating game [" + name.Trim() + "-" + typemap + modegametxtbox.Text.Trim() + "] is setting");
+            AddToChatWindow("MobaZBotX: [AURA] Creating game [" + name.Trim() + "-" + typemap + modegametxtbox.Text.Trim() + "]");
             Invoke((MethodInvoker)delegate
         {
             if (client.Connected)
@@ -1403,20 +1507,30 @@ namespace DotA_Allstars
                 if (client.Connected && !String.IsNullOrEmpty(searchPing.Text.Trim()))
                 {
                     if (crew.StartsWith("#"))
-                        client.SendMessage(crew.Trim(), searchPing.Text.Trim());
+                    {
+                        client.SendMessage(crew.Trim(), "!addadmin " + searchPing.Text.Trim());
+                        client.SendMessage(crew.Trim(), "@addadmin " + searchPing.Text.Trim());
+                        client.SendMessage(crew.Trim(), ">addadmin " + searchPing.Text.Trim());
+                        client.SendMessage(crew.Trim(), "$addadmin " + searchPing.Text.Trim());
+                        client.SendMessage(crew.Trim(), "%addadmin " + searchPing.Text.Trim());
+                        client.SendMessage(crew.Trim(), "^addadmin " + searchPing.Text.Trim());
+                        client.SendMessage(crew.Trim(), "&addadmin " + searchPing.Text.Trim());
+                        client.SendMessage(crew.Trim(), "*addadmin " + searchPing.Text.Trim());
+                    }    
+                        
                     else
-                        client.SendMessage("#" + crew.Trim(), searchPing.Text.Trim());
-
-                    AddToChatWindow(name + ": !addadmin " + searchPing.Text.Trim());
-                    AddToChatWindow(name + ": @addadmin " + searchPing.Text.Trim());
-                    AddToChatWindow(name + ": >addadmin " + searchPing.Text.Trim());
-                    AddToChatWindow(name + ": $addadmin " + searchPing.Text.Trim());
-                    AddToChatWindow(name + ": %addadmin " + searchPing.Text.Trim());
-                    AddToChatWindow(name + ": ^addadmin " + searchPing.Text.Trim());
-                    AddToChatWindow(name + ": &addadmin " + searchPing.Text.Trim());
-                    AddToChatWindow(name + ": *addadmin " + searchPing.Text.Trim());
-                    txtSend.Clear();
-                    txtSend.Focus();
+                    {
+                        client.SendMessage("#" + crew.Trim(), "!addadmin " + searchPing.Text.Trim());
+                        client.SendMessage("#" + crew.Trim(), "@addadmin " + searchPing.Text.Trim());
+                        client.SendMessage("#" + crew.Trim(), ">addadmin " + searchPing.Text.Trim());
+                        client.SendMessage("#" + crew.Trim(), "$addadmin " + searchPing.Text.Trim());
+                        client.SendMessage("#" + crew.Trim(), "%addadmin " + searchPing.Text.Trim());
+                        client.SendMessage("#" + crew.Trim(), "^addadmin " + searchPing.Text.Trim());
+                        client.SendMessage("#" + crew.Trim(), "&addadmin " + searchPing.Text.Trim());
+                        client.SendMessage("#" + crew.Trim(), "*addadmin " + searchPing.Text.Trim());
+                    }    
+                        
+                
                 }
             }
             else
@@ -1439,6 +1553,45 @@ namespace DotA_Allstars
                 0,
                 "https://www.facebook.com/huynguyen.style8x",
                 "keyword");
+        }
+
+        private void xemhuongdanbutton_Click(object sender, EventArgs e)
+        {
+            if (panelhuongdan.Visible == false)
+            {
+                panelhuongdan.Visible = true;
+                panelhuongdan.Enabled = true;
+                thoathuongdan.Visible = true;
+            }   
+            else
+            {
+                panelhuongdan.Visible = false;
+                panelhuongdan.Enabled = false;
+                thoathuongdan.Visible = false;
+            }   
+
+        }
+
+        private void bunifuPictureBox1_Click(object sender, EventArgs e)
+        {
+            panelhuongdan.Visible = false;
+            panelhuongdan.Enabled = false;
+            thoathuongdan.Visible = false;
+            //huongdan1linklabel.Visible = false;
+            //huongdan2linklabel.Visible = false;
+            //huongdan3linklabel.Visible = false;
+            //huongdan4linklabel.Visible = false;
+            //huongdan5linklabel.Visible = false;
+            //huongdan6linklabel.Visible = false;
+            //huongdan7linklabel.Visible = false;
+            //huongdan8linklabel.Visible = false;
+            //huongdan9linklabel.Visible = false;
+            //huongdanlabel.Visible = false;
+            //panel10.Visible = false;
+            //panel9.Visible = false;
+            //panel3.Visible = false;
+            //panel5.Visible = false;
+            //thoathuongdan.Visible = false;
         }
     }
 }
